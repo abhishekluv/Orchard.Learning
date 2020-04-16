@@ -9,6 +9,7 @@ namespace Orchard.Learning
         public int Create()
         {
             // Creating the Topics ContentType
+            // Change made to this Migration file on 16th April 2020
             ContentDefinitionManager.AlterTypeDefinition("Topics", builder => builder
                 .WithPart("TitlePart")
                 .WithPart("CommonPart")
